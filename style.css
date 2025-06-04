@@ -1,0 +1,64 @@
+body {
+    background-color: #002b00; /* verde escuro */
+    color: #f0fff0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px; /* Fonte maior para tela de computador */
+}
+
+/* Layout em duas colunas lado a lado */
+.layout-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Área de texto com largura controlada */
+.texto {
+    flex: 1;
+    max-width: 60%;
+}
+
+.texto h1 {
+    font-size: 2.8em;
+    color: #aaffaa;
+}
+
+.texto h3 {
+    font-size: 2em;
+    color: #ccffcc;
+    margin-top: 20px;
+}
+
+.texto p {
+    text-align: justify;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+/* Área da imagem com ajuste de tamanho */
+.imagem {
+    flex: 1;
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #66ff66;
+}
+
+/* Rodapé simples */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #cccccc;
+}
